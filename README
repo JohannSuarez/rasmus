@@ -1,0 +1,14 @@
+Rasmus - A bare-bones SFTP script for file transfers from and to servers.
+
+This program assumes you have a password protected public SSH key in your server, and that you are familiar with manually SSH'ing into your server.
+It operates on four directories: 'received' and 'send' folder in your local directory, and 'received' and 'to_local' folder in your server.
+
+Usage:
+
+python3 sftp_helper.py [put/get]
+
+
+Place the files you wish to send to your server in the "send" folder. It will be sent to your server's "received" folder.
+
+If you run get, you will receive the files from your server into your local "received" folder. But you have to make sure that the file was placed in the server's "to_local" folder
+beforehand.

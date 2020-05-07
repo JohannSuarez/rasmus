@@ -1,0 +1,16 @@
+linit - creates required folders in local
+	-Must be sure it doesnt exist yet
+init - creates required folders in server
+	-Must be sure it doesnt exist yet
+
+A check if directories exist in local, otherwise end.
+A check if ssh key exists.
+
+If there is nothing to send in the folder, end.
+If there is nothing to receive in the folder, end.
+
+Fix password string.
+
+A detailed instruction about the config file.
+
+get command fails when file is already downloaded into received folder.
