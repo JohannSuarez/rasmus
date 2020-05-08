@@ -1,7 +1,7 @@
-Rasmus - A bare-bones SFTP script for file transfers from and to servers.
+Rasmus - A bare-bones SFTP script for file transfers to and from servers.
 
 This program assumes you have a password protected public SSH key in your server, and that you are familiar with manually SSH'ing into your server.
-It operates on four directories: 'received' and 'send' folder in your local directory, and 'received' and 'to_local' folder in your server.
+It operates with four directories: 'received' and 'send' folder in your local directory, and 'received' and 'to_local' folder in your server.
 
 Usage:
 

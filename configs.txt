@@ -1,4 +1,4 @@
-name=johann
-host=34.80.166.186
-private_key=/home/johann/.ssh/vmlogin
-pass=cgftw!98
+name=
+host=
+private_key=
+pass=
