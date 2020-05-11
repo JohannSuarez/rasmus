@@ -3,10 +3,7 @@ linit - creates required folders in local
 init - creates required folders in server
 	-Must be sure it doesnt exist yet
 
-1. A check if directories exist in local, otherwise end.
-2. A check if ssh key exists.
-3. If there is nothing to send in the folder, end.
+
 4. If there is nothing to receive in the folder, end.
-5. Password encryption. Or make a prompt pop-up asking for the pass so there would be no need to store it anywhere.
 6. A detailed instruction about the config file.
 7. Get command must fail when file is already downloaded into local received folder.
